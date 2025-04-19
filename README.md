@@ -58,10 +58,10 @@ OUTPUT
 3 4 5 | 2 8 6 | 1 7 9
 
 ----
-🙌 Contributions
+🙌 Contributions<br>
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
-✨ Acknowledgements
-Inspired by classic Sudoku puzzle logic
+✨ Acknowledgements<br>
+Inspired by classic Sudoku puzzle logic<br>
 
 Great for practice in recursion and backtracking
