@@ -46,17 +46,13 @@ int[][] board = {
 
 
 
-<br>
-<br>
-<br>
-
 
 📦 How to Run
-<br>
+
 Clone the repository
 
-bash<br>
-Copy code<br>
+bash
+Copy code
 git clone https://github.com/divysaxena24/Sudoku-Solver.git
 
 
