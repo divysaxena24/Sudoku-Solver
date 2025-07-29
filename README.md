@@ -1,37 +1,38 @@
-🧩 Sudoku Solver in Java
+🧩 Sudoku Solver in Java<br><br>
 A Java-based Sudoku Solver that leverages the Backtracking Algorithm to efficiently solve any valid 9x9 Sudoku puzzle. This project is ideal for developers looking to strengthen their understanding of recursion, constraint satisfaction, and algorithmic problem-solving in Java.
+<br><br><br>
 
 🚀 Features
-✅ Solves any valid 9x9 Sudoku puzzle
+✅ Solves any valid 9x9 Sudoku puzzle<br>
 
-🔄 Uses a recursive backtracking approach
+🔄 Uses a recursive backtracking approach<br>
 
-🖥️ Simple console-based interface
+🖥️ Simple console-based interface<br>
 
-🧩 Easy to understand, modify, and extend
+🧩 Easy to understand, modify, and extend<br>
 
-🧪 Well-structured and beginner-friendly code
+🧪 Well-structured and beginner-friendly code<br>
+<br><br>
+🧠 How It Works<br>
+The algorithm operates using a classic backtracking technique:<br>
 
-🧠 How It Works
-The algorithm operates using a classic backtracking technique:
+Locate an empty cell (represented as 0)<br>
 
-Locate an empty cell (represented as 0)
+Attempt to place digits 1–9 in the cell<br>
 
-Attempt to place digits 1–9 in the cell
+For each digit:<br>
 
-For each digit:
+Check if it's safe (i.e., not already present in the same row, column, or 3×3 sub-grid)<br>
 
-Check if it's safe (i.e., not already present in the same row, column, or 3×3 sub-grid)
+If valid, place the number and proceed recursively<br>
 
-If valid, place the number and proceed recursively
+If recursion fails (leads to a dead end), backtrack and try the next number<br>
 
-If recursion fails (leads to a dead end), backtrack and try the next number
-
-If all cells are correctly filled, the puzzle is successfully solved
-
-📸 Example Input
-java
-Copy code
+If all cells are correctly filled, the puzzle is successfully solved<br>
+<br><br>
+📸 Example Input<br><br>
+java<br>
+Copy code<br>
 int[][] board = {
     {5, 3, 0, 0, 7, 0, 0, 0, 0},<br>
     {6, 0, 0, 1, 9, 5, 0, 0, 0},<br>
@@ -45,29 +46,24 @@ int[][] board = {
 };
 
 
-📦 How to Run
+📦 How to Run<br>
 
-Clone the repository:
+Clone the repository:<br>
 
-bash
-Copy code
-git clone https://github.com/divysaxena24/Sudoku-Solver.git
-Open the project in your preferred IDE (e.g., IntelliJ, Eclipse)
+bash<br>
+Copy code<br>
+git clone https://github.com/divysaxena24/Sudoku-Solver.git<br>
+Open the project in your preferred IDE (e.g., IntelliJ, Eclipse)<br>
 
-Run the Main class or the class containing the main method
+Run the Main class or the class containing the main method<br>
 
-View the output in the console
+View the output in the console<br>
 
 
+<br><br><br>
 
-🤝 Contributions
-Contributions are welcome!
-Feel free to fork the project and submit a pull request.
+💡 Acknowledgements<br>
+Inspired by the timeless logic of Sudoku puzzles<br>
 
-For significant changes, please open an issue to discuss improvements beforehand.
-
-💡 Acknowledgements
-Inspired by the timeless logic of Sudoku puzzles
-
-A great practice project to sharpen recursion, backtracking, and Java fundamentals
+A great practice project to sharpen recursion, backtracking, and Java fundamentals<br>
 
