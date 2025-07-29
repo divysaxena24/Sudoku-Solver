@@ -43,3 +43,20 @@ int[][] board = {
     {0, 0, 0, 4, 1, 9, 0, 0, 5},
     {0, 0, 0, 0, 8, 0, 0, 7, 9}
 };
+
+
+
+<br>
+<br>
+<br>
+
+
+📦 How to Run
+<br>
+Clone the repository
+
+bash<br>
+Copy code<br>
+git clone https://github.com/divysaxena24/Sudoku-Solver.git
+
+
